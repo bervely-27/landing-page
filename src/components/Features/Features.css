@@ -1,0 +1,13 @@
+.features{
+    background: hsla(0, 0%, 95%, 1);
+    margin-top: 40px;
+    height: 40vh;
+ 
+}
+
+@media (max-width:900px){
+    .features{
+        height: 85vh;
+    }
+
+}

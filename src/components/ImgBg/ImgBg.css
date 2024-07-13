@@ -1,0 +1,34 @@
+.headline{
+  margin-top: 50px;
+ 
+}
+.image4{
+    object-fit: cover;
+   width:100% ;
+   height: 70vh;
+   
+}
+.last{
+  display: none;
+}
+@media (max-width:900px) {
+  .image4{
+   display: none;
+   
+}
+.headline{
+  display: none;
+ 
+}
+.last{
+  display: inline-flex;
+  width: 100%;
+  height: 70vh;
+  margin-top: 20px;
+}
+.image5{
+  object-fit: cover;
+  width:100% ;
+  height: 70vh;
+}
+}

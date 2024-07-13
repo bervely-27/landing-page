@@ -1,0 +1,50 @@
+.testimony{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 40px; 
+}
+.ellipse-review{
+    display: none;
+}
+@media (max-width:900px) {
+    .testimony{
+        flex-direction: column;
+        height: 44vh;
+        overflow: hidden;
+        align-items: center;
+    }
+    .item1{
+        display: none;
+    }
+    .ellipse-review{
+        display: flex;
+        gap: 10px;
+        
+      
+    }
+    .ellipse1{
+        width: 20px;
+        height: 20px;
+    border: 1px solid  hsla(0, 0%, 95%, 1);
+    border-radius: 50%;
+    background: hsla(0, 0%, 95%, 1);
+
+    }
+    .ellipse2{
+        width: 20px;
+        height: 20px;
+    border: 1px solid  black;
+    border-radius: 50%;
+    background: black;
+
+    }
+    .ellipse1{
+        width: 20px;
+        height: 20px;
+    border: 1px solid  hsla(0, 0%, 95%, 1);
+    border-radius: 50%;
+    background: hsla(0, 0%, 95%, 1);
+
+    }
+}

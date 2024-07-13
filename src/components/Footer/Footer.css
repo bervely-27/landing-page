@@ -1,0 +1,209 @@
+.footer {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    color: hsla(0, 0%, 100%, 1);
+    padding-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    justify-content: center;
+}
+
+.image-footer {
+    width: 150px;
+    height: 27px;
+    object-fit: contain;
+
+}
+
+.colums p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 20px;
+    text-align: left;
+
+    margin-top: -10px;
+}
+
+.colums h6 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.search {
+    background: hsla(0, 0%, 100%, 0.15);
+
+    padding: 5px;
+    border: 1px solid hsla(0, 0%, 100%, 0.15);
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.look p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 20px;
+    text-align: left;
+    width: 300px;
+
+}
+
+.look h6 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+input {
+    outline: none;
+}
+
+.mail,
+.icon {
+    border: none;
+    background: transparent;
+}
+
+footer {
+    background: hsla(0, 0%, 0%, 1);
+    height: 50vh;
+    margin-top: -20px;
+
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+
+    gap: 40px;
+}
+
+@media (max-width:900px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        color: hsla(0, 0%, 100%, 1);
+        padding-top: 70px;
+        margin-left: 70px;
+        margin-right: 70px;
+        justify-content: center;
+        justify-content: center;
+
+    }
+
+    .image-footer {
+        width: 150px;
+        height: 27px;
+        object-fit: contain;
+
+    }
+
+    .look {
+        margin-top: -20px;
+    }
+
+    .colums p {
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 20px;
+        text-align: left;
+
+        margin-top: -10px;
+    }
+
+    .colums h6 {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    .search {
+        background: hsla(0, 0%, 100%, 0.15);
+
+        padding: 5px;
+        border: 1px solid hsla(0, 0%, 100%, 0.15);
+        width: 250px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        margin-left: 30px;
+
+    }
+
+    .look p {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 20px;
+        text-align: left;
+        width: 300px;
+        text-align: center;
+
+    }
+
+    .look h6 {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        text-align: left;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    input {
+        outline: none;
+    }
+
+    .mail,
+    .icon {
+        border: none;
+        background: transparent;
+
+    }
+
+    .icon {
+        margin-left: 50px;
+    }
+
+    footer {
+        background: hsla(0, 0%, 0%, 1);
+        height: 70vh;
+        margin-top: -20px;
+
+
+
+    }
+
+    .brand {
+        display: flex;
+        flex-direction: row;
+
+        gap: 40px;
+    }
+
+}
